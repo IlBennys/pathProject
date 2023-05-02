@@ -1,10 +1,11 @@
 package model;
 
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ComunicazioneHttp extends CanaleComunicazione {
 
-    private static final org.slf4j.Logger Logger = LoggerFactory.getLogger(ComunicazioneHttp.class);
+    private static final Logger Logger = LoggerFactory.getLogger(ComunicazioneHttp.class);
     private String baseurINotifica;
 
     public ComunicazioneHttp(String baseurINotifica) {
